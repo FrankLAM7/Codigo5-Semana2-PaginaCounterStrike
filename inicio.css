@@ -1,0 +1,24 @@
+
+.title{
+  size: 25px;
+}
+div{
+  text-align: center;
+  justify-items: center;
+}
+
+p{
+  text-align: center;
+
+}
+.hero{
+width: 50%;
+display: inline-block;
+
+}
+
+.comen{
+width: 50%;
+display: inline-block;
+text-align: center;
+}
