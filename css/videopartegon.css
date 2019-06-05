@@ -1,0 +1,70 @@
+#principal{
+    width: 900px;
+    height: 750px;
+    margin: auto;
+    
+}
+#logo{
+    width: 50%;
+    height: 50%;
+   
+}
+#texto1{
+    font-size: 100%;
+}
+#video{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+#informativo{
+    width: 899px;
+    height: 35%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.uno{
+    width: 290px;
+    height: 400px;
+    float: left;
+}
+.dos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+.image{
+    opacity: 0.20;
+}
+.menu{
+
+    width: 100%;
+    
+}
+
+.menu ul li{
+    margin-top: 0px;   
+    list-style: none;
+    float: left;
+    padding: 5px 12px;
+    border: 3px solid #B30006;
+    background: gray;
+    color: black;
+}
+.uno1{
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+.dos2{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pegar{
+    margin: 0px;
+    padding: 0px;
+}   

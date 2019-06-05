@@ -4,7 +4,7 @@
 }
 @font-face{
     font-family: "Counter-Strike";
-    src: url("./counter-strike-regular.ttf");
+    src: url("../counter-strike-regular.ttf");
 }
 body{
     background: #8E0E00;  /* fallback for old browsers */
@@ -46,9 +46,12 @@ a{
     color: black;
     text-decoration: none;
 }
+a:hover{
+    color: red;
+}
 #cuerpo{
-    height: 500px;
-    background: url("./img/CS-GO-soldier_1920x1080\ \(1\).jpg");
+    height: 100%;
+    background: url("../img/CS-GO-soldier_1920x1080\ \(1\).jpg");
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;

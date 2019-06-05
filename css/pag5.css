@@ -1,0 +1,71 @@
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.c1{
+    background: white;
+    position: relative;
+    display:inline-block;
+    vertical-align:top;
+    overflow:visible;
+    border-radius: 10px;
+    margin: 5px;
+    right: 30px;
+    left: 30px;
+}
+.c1:hover{
+    opacity: 0.5;
+}
+
+.tabla{
+    background: gray;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    -moz-border-radius-topleft: 7px;
+-moz-border-radius-topright:7px;
+-moz-border-radius-bottomleft:7px;
+-moz-border-radius-bottomright:7px;
+-webkit-border-top-left-radius:7px;
+-webkit-border-top-right-radius:7px;
+-webkit-border-bottom-left-radius:7px;
+-webkit-border-bottom-right-radius:7px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+}
+.contenido{
+    margin: auto;
+}
+.contenido p{
+    text-align:justify;
+}
+video{
+    margin-bottom:20px;
+}
+#container{
+    display: inline-block;
+    margin: 10px;
+}
+.caja
+{
+    width:25%;
+    height:200px;
+    float: left;
+    padding-left: 3%;
+
+}
+.star-rating a {
+    display: inline-block;
+    color: #95a5a6; /* gris (normal) */
+  }
+  .star-rating:hover a {
+    color: #f39c12; /* amarillo (seleccionado) */
+  }
+    .star-rating:hover a:hover ~ a {
+      color: #95a5a6; /* gris (normal) */
+    }
+    

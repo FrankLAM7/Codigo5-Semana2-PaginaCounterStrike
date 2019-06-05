@@ -3,7 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/subir_video.css">
+    <style>
+        footer{
+            padding-left: 80px;
+            padding-top: 40px;
+        }
+        #menu{
+            padding-left: 154px;
+        }
+    </style>
     <title>Counter Strike</title>
 </head>
 
@@ -13,7 +23,7 @@
             <img id="imagen" src="./img/header.jpg">
             <img id="codigo" src="./img/logoCodigo (4).png">
             <h1>Counter Strike - Global Ofensive</h1>
-            <br/>
+            <br />
         </div>
     </header>
     <section id="menu">
@@ -28,12 +38,62 @@
         </nav>
     </section>
     <section id="cuerpo">
-        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt consectetur ea nihil. Quam quia laudantium
-            officiis nam animi placeat tenetur adipisci enim praesentium dicta, est ea blanditiis explicabo ullam
-            deserunt!</P>
+        <div class="padre">
+            <div id="div_img">
+                <img id="imagen" src="./img/subir.png" alt="Imagen de subir a la nube">
+            </div>
+            <div id="div_subir">
+                <h2>Subir Video</h2>
+            </div>
+        </div>
+        <br><br>
+        <form action="./subir_video.html">
+            <br><br><br><br><br>
+            <div class="formulario">
+                <label for="btn_archivo">ARCHIVO</label>
+                <input type="text" id="btn_archivo" required />
+                <input type="file">
+                <br><br>
+                <input type="checkbox" required> Acepto Terminos y condiciones.
+            </div>
+            
+            <div class="contenido">
+                <div id="categoria">
+                    <h3>CATEGORIA</h3>
+                    <br>
+                    <input type="checkbox">Mejores Jugadas
+                    <br>
+                    <input type="checkbox">Bloppers
+                    <br>
+                    <input type="checkbox">MVP
+                    <br>
+                </div>
+                <div id="etiqueta">
+                    <h3>#ETIQUETAS</h3>
+                    <br>
+                    <input type="text" placeholder="#">
+                    <br>
+                    <input type="text" placeholder="#">
+                    <br>
+                    <input type="text" placeholder="#">
+                    <br>
+                    <input type="text" placeholder="#">
+                    <br>
+                    <input type="text" placeholder="#">
+                </div>
+                <div id="descripcion">
+                    <h3>DESCRIPCION</h3>
+                    <textarea name="texto" id="texta" cols="37" rows="10"
+                        placeholder="Escribe una descripcion..."></textarea>
+                </div>
+            </div>
+            <input id="boton" type="submit" value="Enviar Video" src="#"/>
+        </form>
     </section>
     <footer>
-            <a href="./about.html"><h3>- Contacto | - Correo Electronico | - Ubicación</h3></a>
+        <a href="./about.html">
+            <h3>- Contacto | - Correo Electronico | - Ubicación</h3>
+        </a>
     </footer>
 </body>
 
