@@ -1,0 +1,130 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@font-face{
+    font-family: "Counter-Strike";
+    src: url("./counter-strike-regular.ttf");
+}
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white
+}
+h1{
+    font-family: "Counter-Strike";
+}
+#menu{
+    height: 40px;
+    /* background-color: gray; */
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 108px;
+}
+#cabecera{
+    padding-left: 27%;
+    height: 200px;
+    /* background-color: gray; */
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+nav li{
+    background-color: gray;
+    display: inline;
+    font-size: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+a{
+    font-family: "Counter-Strike";
+    color: black;
+    text-decoration: none;
+}
+#cuerpo{
+    height: 500px;
+    background: url("./img/CS-GO-soldier_1920x1080\ \(1\).jpg");
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -moz-border-radius-topleft: 7px;
+-moz-border-radius-topright:7px;
+-moz-border-radius-bottomleft:7px;
+-moz-border-radius-bottomright:7px;
+-webkit-border-top-left-radius:7px;
+-webkit-border-top-right-radius:7px;
+-webkit-border-bottom-left-radius:7px;
+-webkit-border-bottom-right-radius:7px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+}
+
+#imagen{
+    height: 130px;
+    padding-left: 12%;
+}
+#codigo{
+    padding-left: 230px;
+    padding-bottom: 70px;
+}
+footer{
+    background-color: gray;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-left: 190px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    -moz-border-radius-topleft: 7px;
+-moz-border-radius-topright:7px;
+-moz-border-radius-bottomleft:7px;
+-moz-border-radius-bottomright:7px;
+-webkit-border-top-left-radius:7px;
+-webkit-border-top-right-radius:7px;
+-webkit-border-bottom-left-radius:7px;
+-webkit-border-bottom-right-radius:7px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+}
+h3{
+    font-family: "Counter-Strike";
+    font-size: 23px;
+    color: black;
+}
+li{
+    border:solid 3px #B30006;
+    -moz-border-radius-topleft: 7px;
+-moz-border-radius-topright:7px;
+-moz-border-radius-bottomleft:7px;
+-moz-border-radius-bottomright:7px;
+-webkit-border-top-left-radius:7px;
+-webkit-border-top-right-radius:7px;
+-webkit-border-bottom-left-radius:7px;
+-webkit-border-bottom-right-radius:7px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+    
+}
+
+#label{
+    color: white;
+}
+#centrar{
+    float: right;
+}
