@@ -1,0 +1,63 @@
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img{
+    margin: 15px;
+    right: 10px;
+    left: 10px;
+    display: block;
+}
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9{
+    background: white;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    display:inline-block;
+    vertical-align:top;
+    overflow:visible;
+    border-radius: 10px;
+    margin: 5px;
+    right: 30px;
+    left: 30px;
+
+    
+    
+}
+
+.tabla{
+    background: #E31700;
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    right: 30px;
+    left: 30px;
+
+}
+.contenido{
+    margin: auto;
+}
+.contenido p{
+    text-align:justify;
+}
+video{
+    margin-bottom:20px;
+}
+.caja
+{
+    width:300px;
+    height:250px;
+    display:inline-block;
+}
+.star-rating a {
+    display: inline-block;
+    color: #95a5a6; /* gris (normal) */
+  }
+  .star-rating:hover a {
+    color: #f39c12; /* amarillo (seleccionado) */
+  }
+    .star-rating:hover a:hover ~ a {
+      color: #95a5a6; /* gris (normal) */
+    }
